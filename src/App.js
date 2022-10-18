@@ -13,7 +13,6 @@ function App() {
       await axios
         .get(process.env.REACT_APP_BASE_URL)
         .then((res) => {
-          console.log(res.data);
           setItems(res.data.data);
         })
         .catch((err) => console.log(err));
@@ -23,7 +22,6 @@ function App() {
       await axios
         .get(process.env.REACT_APP_GET_COMPILER)
         .then((res) => {
-          console.log(res.data);
           setPathVideoCompiler(
             res.data.data[0].video_compiler.path.slice(
               12,
@@ -37,7 +35,6 @@ function App() {
     getData();
   }, []);
 
-  console.log(pathVideoCompiler);
   return (
     <div className="App">
       <div>

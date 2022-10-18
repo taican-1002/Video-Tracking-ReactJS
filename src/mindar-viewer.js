@@ -14,7 +14,6 @@ const MindARViewer = (props) => {
       arSystem.stop();
     };
   }, []);
-  console.log(process.env.REACT_APP_UPLOAD + pathVideoCompiler);
 
   return (
     <a-scene

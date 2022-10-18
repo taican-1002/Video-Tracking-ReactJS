@@ -1,32 +1,12 @@
-/* .App {
-  text-align: center;
-}
-
-.container {
-  height: 100%;
-  width: 100%;
-  overflow-x: hidden;
-} */
-
 body .mindar-ui-scanning .scanning {
-  /* position: absolute; */
   width: 70vw;
-  /* height: 50vw; */
-  /* top: 15%; */
 }
-
 .btn {
   position: absolute;
   z-index: 1000;
   text-align: center;
   width: 100%;
 }
-
-/* .container video {
-  top: 0 !important;
-  height: 800px !important;
-  object-fit: cover;
-} */
 
 .App {
   text-align: center;
