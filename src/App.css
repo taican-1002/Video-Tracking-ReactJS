@@ -1,38 +1,47 @@
+/* .App {
+  text-align: center;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+} */
+
+body .mindar-ui-scanning .scanning {
+  /* position: absolute; */
+  width: 70vw;
+  /* height: 50vw; */
+  /* top: 15%; */
+}
+
+.btn {
+  position: absolute;
+  z-index: 1000;
+  text-align: center;
+  width: 100%;
+}
+
+/* .container video {
+  top: 0 !important;
+  height: 800px !important;
+  object-fit: cover;
+} */
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  margin: 20px auto;
+  position: relative;
+  height: 430px;
+  width: 600px;
+  overflow: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  position: absolute;
+  z-index: 1000;
+  text-align: center;
 }
