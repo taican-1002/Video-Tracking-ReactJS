@@ -1,3 +1,7 @@
-# npm install
+# Install
 
-# npm start
+npm install
+
+# Run
+
+npm start
