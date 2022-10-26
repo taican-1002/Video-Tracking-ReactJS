@@ -37,14 +37,18 @@ const MindARViewer = (props) => {
               key={index}
               id={item.id}
               type="video/mp4"
-              // autoPlay
-              // loop={true}
-              src={
-                process.env.REACT_APP_UPLOAD +
-                item.video.path.slice(12, item.video.path.length)
-              }
-              // playsInline
-            ></video>
+              autoPlay
+              loop={true}
+              playsInline
+            >
+              <source
+                src={
+                  process.env.REACT_APP_UPLOAD +
+                  item.video.path.slice(12, item.video.path.length)
+                }
+                type="video/mp4"
+              ></source>
+            </video>
           ))}
       </a-assets>
       {items &&
