@@ -55,7 +55,7 @@ const MindARViewer = (props) => {
           >
             <a-plane
               src={`#${item.id}`}
-              position="0.5 0.5 0"
+              position="0.3 0.2 0"
               height="0.552"
               width="1"
               rotation="0 0 0"
