@@ -33,6 +33,7 @@ const MindARViewer = (props) => {
         {items &&
           items.map((item, index) => (
             <video
+              controls
               key={index}
               id={item.id}
               type="video/mp4"
